@@ -1,0 +1,35 @@
+.THIS .lexURLButton .DeepSkyBlue {
+    border-color: #009acd;
+}
+.THIS .lexURLButton .Napilli-Blue {
+    font-family: Lato,'Salesforce Sans',Arial,sans-serif;
+    border-radius: 2px;
+    background-color: #2574a9;
+    border: none;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1em;
+    width: 100%;
+    -webkit-transition: background .8s ease;
+    transition: background .8s ease;
+}
+.THIS .lexURLButton .White {
+    color: #ffffff;
+}
+.THIS .lexURLButton .Free {
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+}
+.THIS .lexURLButton .Round {
+    border-radius: .2em;
+}
+ .THIS .lexURLButton .btn {
+    border: solid 1px;
+    text-align: center;
+    margin-top: .1em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}

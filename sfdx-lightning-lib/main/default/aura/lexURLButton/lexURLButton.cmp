@@ -1,0 +1,15 @@
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >
+	<aura:attribute name="buttonLabel" type="String" />
+    <aura:attribute name="buttonURL" type="String" />
+	<aura:attribute name="buttonBackgroundColor" type="String" />
+    <aura:attribute name="buttonBoarderColor" type="String" />
+	<aura:attribute name="buttonTextColor" type="String" />
+	<aura:attribute name="urlOpenSameWindow" type="Boolean" default="false"/>
+
+	<div class="ui-widget">
+    	<div class="container-btn lexURLButton" id="container" data-aura-class="lexURLButton">
+			<button class="btn Free Round DeepSkyBlue White Napilli-Blue" onclick="{! c.handleClick }" style="{!'background-color:'+v.buttonBackgroundColor+';color:'+v.buttonTextColor+';border-color:'+v.buttonBoarderColor }" >{!v.buttonLabel}</button>
+		</div>
+	</div>    
+
+</aura:component>	

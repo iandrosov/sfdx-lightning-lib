@@ -1,0 +1,8 @@
+<design:component>
+    <design:attribute name="buttonLabel" />
+    <design:attribute name="buttonURL" />
+    <design:attribute name="buttonBackgroundColor" label="Enter HEX Button Background Color"/>
+    <design:attribute name="buttonBoarderColor" label="Enter HEX Button Boarder Color" />
+    <design:attribute name="buttonTextColor" label="Enter HEX Button Text Color" />
+    <design:attribute name="urlOpenSameWindow" label="Open URL in same tab" />    
+</design:component>
