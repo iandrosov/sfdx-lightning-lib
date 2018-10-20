@@ -1,0 +1,377 @@
+[
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1540009741106,
+            "changeTime": 1540009741106,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1540009741106,
+            "changeTime": 1540009741106,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1540009741106,
+            "changeTime": 1540009741106,
+            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1540009741108,
+            "changeTime": 1540009741108,
+            "contentHash": "67ec96c9c4e0a58e82a9419d721c405b57e5acbc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 352,
+            "modifiedTime": 1540009741108,
+            "changeTime": 1540009741108,
+            "contentHash": "081d355042252c818d118866352525c6225c0409",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.auradoc",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 209,
+            "modifiedTime": 1540009741106,
+            "changeTime": 1540009741106,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 211,
+            "modifiedTime": 1540009741106,
+            "changeTime": 1540009741106,
+            "contentHash": "8b47cf0680dcd7ef2d47e1546f63b18b24069aed",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 294,
+            "modifiedTime": 1540009741107,
+            "changeTime": 1540009741107,
+            "contentHash": "ec4709dcd776b9d45c067af42065b6122b3c9b4a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 67,
+            "modifiedTime": 1540009741107,
+            "changeTime": 1540009741107,
+            "contentHash": "f639c73510a4b77e1820edfc851c2e66fedbd646",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.design",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 86,
+            "modifiedTime": 1540009741107,
+            "changeTime": 1540009741107,
+            "contentHash": "52c913abb5f97e0671cb9b95a091d3ddd4dbb9a8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.svg",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainer.svg",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 661,
+            "modifiedTime": 1540009741107,
+            "changeTime": 1540009741107,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainerController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainerController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 65,
+            "modifiedTime": 1540009741108,
+            "changeTime": 1540009741108,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainerHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainerHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 45,
+            "modifiedTime": 1540009741108,
+            "changeTime": 1540009741108,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainerRenderer.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexCustomAppContainer/lexCustomAppContainerRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 50,
+            "modifiedTime": 1540009741108,
+            "changeTime": 1540009741108,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 352,
+            "modifiedTime": 1540009741110,
+            "changeTime": 1540009741110,
+            "contentHash": "412db3555c568770507bf95b9b21af9a2860a64b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.auradoc",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.auradoc",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 209,
+            "modifiedTime": 1540009741108,
+            "changeTime": 1540009741108,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.cmp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 889,
+            "modifiedTime": 1540009741109,
+            "changeTime": 1540009741109,
+            "contentHash": "9632d069433b8dc821fa85ac3510d22677d8ae36",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 244,
+            "modifiedTime": 1540009741109,
+            "changeTime": 1540009741109,
+            "contentHash": "8bed709c260ef7fec3a9e38975b12e5085471c9c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.css",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 790,
+            "modifiedTime": 1540009741109,
+            "changeTime": 1540009741109,
+            "contentHash": "8a255e60006552824071ad40adf298b682ab3044",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.design",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.design",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 476,
+            "modifiedTime": 1540009741109,
+            "changeTime": 1540009741109,
+            "contentHash": "342697c193cef5361f64006d1c43b29e55c8d774",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.svg",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButton.svg",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 661,
+            "modifiedTime": 1540009741110,
+            "changeTime": 1540009741110,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButtonController.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButtonController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 296,
+            "modifiedTime": 1540009741110,
+            "changeTime": 1540009741110,
+            "contentHash": "d6c0fa8be2c29bbc9eab1f8767d8b00f0da1d67c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButtonHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButtonHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 45,
+            "modifiedTime": 1540009741110,
+            "changeTime": 1540009741110,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButtonRenderer.js",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib/sfdx-lightning-lib/main/default/aura/lexURLButton/lexURLButtonRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 50,
+            "modifiedTime": 1540009741110,
+            "changeTime": 1540009741110,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/iandrosov/code/projects/sfdx-lightning-lib",
+        {
+            "state": "n",
+            "sourcePath": "/Users/iandrosov/code/projects/sfdx-lightning-lib",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 416,
+            "modifiedTime": 1540010144361,
+            "changeTime": 1540010144361,
+            "contentHash": "f66d35d2d49e8ec6274fbc756b4a8ddc02d9e8bf",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
