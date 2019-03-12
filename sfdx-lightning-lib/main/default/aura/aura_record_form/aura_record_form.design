@@ -1,0 +1,9 @@
+<design:component>
+    <design:attribute name="title" label="Title" description="Title header for the component" />
+    <design:attribute name="fieldsToDisplay" label="Field List" description="Comma Seperated field list" />
+    <design:attribute name="mode" label="Mode" datasource="edit, view, readonly" description="Select form mode View, Edit" />
+    <design:attribute name="numberOfColumns" label="Columns" datasource="1,2,3,4" description="Number of columns" />
+    <design:attribute name="objectType" label="Object" description="Name of object form"/>
+    <design:attribute name="iconName" label="Icon" description="Icon name in SLDS with prefix of custom:nnn,standard:icon-name etc." />
+    <design:attribute name="layoutType" label="Layout" datasource="Custom, Full, Compact" description="Layout name" />
+</design:component>

@@ -1,0 +1,38 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="objectType" type="String" default="" />
+    <aura:attribute name="fieldsToDisplay" type="String" default="" />
+    <aura:attribute name="layoutType" type="String" default="Custom" />
+    <aura:attribute name="numberOfColumns" type="String" default="1" />
+ 	<aura:attribute name="myFields" type="String[]" default="[]" />
+    <aura:attribute name="mode" type="String" default="edit"/>
+    <aura:attribute name="title" type="String" />
+    <aura:attribute name="iconName" type="String" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+      
+	<lightning:card iconName="{!v.iconName}" title="{!v.title}" >
+        <div class="slds-card__body slds-card__body_inner">
+            <aura:if isTrue="{!v.recordId != null}">
+       				<lightning:recordForm aura:id="recordViewForm"                            
+                            objectApiName="{!v.objectType}"
+                            recordId="{!v.recordId}"              
+                            fields="{!v.myFields}"
+                            columns ="{!v.numberOfColumns}"                                 
+                            mode="{!v.mode}" 
+                         	onsuccess="{!c.onSuccess}"
+                            onerror="{!c.onError}"         
+       				/>
+            	<aura:set attribute="else">
+       				<lightning:recordForm aura:id="recordViewForm"                            
+                            objectApiName="{!v.objectType}"
+                            fields="{!v.myFields}"
+                            columns ="{!v.numberOfColumns}"                                 
+                            mode="{!v.mode}" 
+                         	onsuccess="{!c.onSuccess}"
+                            onerror="{!c.onError}"         
+       				/>                
+            	</aura:set>
+            </aura:if>    
+    	</div>
+        <footer class="slds-card__footer"></footer>
+   	</lightning:card>	    
+</aura:component>
