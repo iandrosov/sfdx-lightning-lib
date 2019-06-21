@@ -10,7 +10,7 @@
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
       
 	<lightning:card iconName="{!v.iconName}" title="{!v.title}" >
-        <div class="slds-card__body slds-card__body_inner">
+         <div class="slds-card__body slds-card__body_inner">
             <aura:if isTrue="{!v.recordId != null}">
        				<lightning:recordForm aura:id="recordViewForm"                            
                             objectApiName="{!v.objectType}"
@@ -18,8 +18,9 @@
                             fields="{!v.myFields}"
                             columns ="{!v.numberOfColumns}"                                 
                             mode="{!v.mode}" 
-                         	onsuccess="{!c.onSuccess}"
-                            onerror="{!c.onError}"         
+                         	 onsuccess="{!c.onSuccess}"
+                            onerror="{!c.onError}"
+                            density="auto"         
        				/>
             	<aura:set attribute="else">
        				<lightning:recordForm aura:id="recordViewForm"                            
@@ -27,12 +28,13 @@
                             fields="{!v.myFields}"
                             columns ="{!v.numberOfColumns}"                                 
                             mode="{!v.mode}" 
-                         	onsuccess="{!c.onSuccess}"
-                            onerror="{!c.onError}"         
+                         	 onsuccess="{!c.onSuccess}"
+                            onerror="{!c.onError}" 
+                            density="auto"        
        				/>                
             	</aura:set>
             </aura:if>    
-    	</div>
-        <footer class="slds-card__footer"></footer>
+    	   </div>
+         <footer class="slds-card__footer"></footer>
    	</lightning:card>	    
 </aura:component>
