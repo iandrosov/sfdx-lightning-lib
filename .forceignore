@@ -6,3 +6,16 @@ package.xml
 **/jsconfig.json
 
 **/.eslintrc.json
+# LWC Jest
+**/__tests__/**
+
+# General Scratch items
+#AppSwitcher.appMenu
+
+*profiles*
+
+force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml
+force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml
+force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml
+force-app/main/default/profiles/Admin.profile-meta.xml
+force-app/main/default/profiles/Custom*.profile-meta.xml

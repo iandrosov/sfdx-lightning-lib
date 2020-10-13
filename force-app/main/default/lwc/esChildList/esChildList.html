@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title={childcardtitle} icon-name="custom:custom62">
+        <template if:false={showOption}>
+        <lightning-combobox
+            label="Select Reason"
+            value={variant}
+            onchange={variantChange}
+            options={variantOptions}
+        >
+        </lightning-combobox>
+    </template>
+        <template if:true={showOption}>
+            <lightning-input
+            type="text"
+            onchange={handleKeyChange}
+            class="slds-var-m-bottom_small"
+            label="New Value"
+            value={searchKey}
+            ></lightning-input>
+        </template>
+    </lightning-card>
+</template>

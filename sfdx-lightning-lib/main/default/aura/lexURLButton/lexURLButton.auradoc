@@ -1,6 +1,0 @@
-<aura:documentation>
-	<aura:description>Documentation</aura:description>
-	<aura:example name="lexURLButton" ref="lexURLButtonComponentName" label="URL Button">
-		URL Button can set external URL and open the page in same browesr tab or new tab.
-	</aura:example>
-</aura:documentation>

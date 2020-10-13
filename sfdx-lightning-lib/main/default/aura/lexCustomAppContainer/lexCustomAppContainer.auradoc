@@ -1,6 +1,0 @@
-<aura:documentation>
-	<aura:description>Documentation</aura:description>
-	<aura:example name="lexCustomAppContainer" ref="lexCustomAppContainerComponent" label="Exteranal App Container">
-		Open External App defined by URL
-	</aura:example>
-</aura:documentation>
