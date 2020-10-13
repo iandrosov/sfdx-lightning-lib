@@ -1,11 +1,11 @@
 {
   "packageDirectories": [
     {
-      "path": "sfdx-lightning-lib",
+      "path": "force-app",
       "default": true
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "43.0"
+  "sourceApiVersion": "49.0"
 }
