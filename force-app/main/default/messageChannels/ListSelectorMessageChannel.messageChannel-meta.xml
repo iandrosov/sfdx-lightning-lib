@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is a sample Lightning Message Channel for the Lightning Web Components.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This is the variantValue that changed</description>
+        <fieldName>variantValue</fieldName>
+    </lightningMessageFields>
+    <masterLabel>ListSelectorMessageChannel</masterLabel>
+</LightningMessageChannel>
