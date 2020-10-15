@@ -1,11 +1,8 @@
 <template>
     <lightning-card title={cardtitle} icon-name="custom:custom62">
-        <lightning-combobox
-            label="Select Reason"
-            value={variant}
-            onchange={variantChange}
-            options={variantOptions}
-        >
-        </lightning-combobox>
+        <div class="slds-var-m-around_medium">
+            <!-- Wrapper combobox into Card -->
+            <c-escombo-main-list></c-escombo-main-list>
+        </div>
     </lightning-card>
 </template>
