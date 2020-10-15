@@ -11,6 +11,7 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>List Manager</label>
     <navType>Standard</navType>
+    <tabs>Example_List_Page</tabs>
     <tabs>List_Metadata__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>List_Manager_UtilityBar</utilityBar>
