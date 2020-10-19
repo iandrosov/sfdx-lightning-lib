@@ -3,13 +3,14 @@ import { LightningElement, wire, track, api } from 'lwc';
 import { subscribe, MessageContext } from 'lightning/messageService';
 import LISTMC from '@salesforce/messageChannel/ListSelectorMessageChannel__c';
 import findChildList from '@salesforce/apex/ES_ComboListManagerCtrl.findChildComboList';
+import saveChildListValue from '@salesforce/apex/ES_ComboListManagerCtrl.saveChildListValue';
 
 export default class EscomboChildList extends LightningElement {
     //@track variantOptions = [{value: 'none' , label: 'none'},{value: 'Planning' , label: 'Planning and Advisory'},{value: 'Product' , label: 'Product'},{value: 'Other' , label: 'Other'}];
     @track showOption = false;
     @api variant = 'none';
     @api childcardtitle = 'Child List';
-    searchKey = '';
+    @track newValueKey = '';
     @track listOptions = [];
 
     @wire(MessageContext)
@@ -66,5 +67,11 @@ export default class EscomboChildList extends LightningElement {
     //gettter to return items which is mapped with options attribute
     get variantOptions() {
         return this.listOptions;
+    }
+
+    // Save new value, call APEX method to save new Child list value
+    saveValue() {
+        // TODO Fix this value not passing
+        saveChildListValue({value: this.newValueKey});
     }
 }
