@@ -25,6 +25,18 @@ This is example fo Custom layout for Ligtning Page
 
 ## LWC - Lightning Web Component List
 
+### LWC Dependent Picklist Values
+This 2 LWC custom dependent list where data stored in custom object. User can add new values to child list by selecting Other on parent-list and add new value for a child-list
+
+Basic components
+
+```
+escomboMainList
+escomboChildList
+```
+For demo app teh wrapper components that Use lightning-card to include these components to add styling.
+
+
 ## Dev, Build and Test
 
 

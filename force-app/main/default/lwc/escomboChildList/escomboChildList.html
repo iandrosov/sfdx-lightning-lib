@@ -1,7 +1,7 @@
 <template>
     <template if:false={showOption}>
         <lightning-combobox
-            label="Select Reason"
+            label="Select Child Value"
             value={variant}
             onchange={variantChange}
             options={variantOptions}
@@ -14,7 +14,11 @@
             onchange={handleKeyChange}
             class="slds-var-m-bottom_small"
             label="New Value"
-            value={searchKey}
+            value={newValueKey}
             ></lightning-input>
+            <lightning-button 
+                label="Save" title="Save" 
+                onclick={saveValue}>
+            </lightning-button>
         </template>
 </template>
