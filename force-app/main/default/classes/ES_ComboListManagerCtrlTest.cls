@@ -43,8 +43,14 @@ public class ES_ComboListManagerCtrlTest {
         Test.startTest();
         List<List_Metadata__c> lst = ES_ComboListManagerCtrl.findChildComboList('Parent 1');
         Test.stopTest();
-        system.assertEquals(3,lst.size());
+        system.assertEquals(2,lst.size());
     }
 
-    
+    @isTest
+    static void saveChildListValueTest(){
+        Test.startTest();
+        ES_ComboListManagerCtrl.saveChildListValue('New Val');
+        Test.stopTest();
+
+    }
 }
