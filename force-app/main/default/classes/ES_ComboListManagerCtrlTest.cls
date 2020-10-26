@@ -49,8 +49,16 @@ public class ES_ComboListManagerCtrlTest {
     @isTest
     static void saveChildListValueTest(){
         Test.startTest();
+        // This willl create single entry for Other - parent and Neew Val as Child
         ES_ComboListManagerCtrl.saveChildListValue('New Val');
         Test.stopTest();
-
+        // Query new data
+        List<List_Metadata__c> lst = [SELECT Id, Active__c, Reason_Value__c, Child_Value__c, Child_Label__c 
+                                        FROM List_Metadata__c WHERE Child_Value__c = 'New Val'];
+        system.assertEquals(1,lst.size());
+        List_Metadata__c pick = (List_Metadata__c)lst[0];
+        system.assertNotEquals(null,pick);
+        system.assertEquals(false,pick.Active__c); // New values added NOT Active for Admin to edit
+        system.assertEquals('Other',pick.Reason_Value__c);
     }
 }
